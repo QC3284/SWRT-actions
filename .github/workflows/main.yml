@@ -106,7 +106,7 @@ jobs:
          gcc --version | head -n1
          sleep 10
          echo "开始编译"
-         cd swrt-gpl/release/src-mtk-mips
+         cd release/src-mtk-mips
          make swrt-xm-cr660x -j4
          echo "完成 (Finished.)"
          
